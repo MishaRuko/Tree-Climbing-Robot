@@ -1,5 +1,5 @@
 # Soviet Cruiser Tree Climbing Robot
-The legenday tree climbing robot.
+The legendary tree climbing robot.
 
 <img width="450" alt="Soviet_cruiser_cad" src="https://github.com/MishaRuko/Tree-Climbing-Robot/assets/51261953/12b1a9f0-a3aa-4c49-a5b0-459988fa11a3">
 
@@ -15,10 +15,10 @@ Operating the robot is simple, the steps are as follows:
 
 ## Implemented Algorithms
 ### MotorControl.ino
-This code makes the robot go straight up until it sees the platform 25cm above it at which point it will gradually slow down and reverse the direction of the wheels, initiating the descent process.
+This code makes the robot go straight up until it detects the platform 25cm above it at which point it will gradually slow down and reverse the direction of the wheels, initiating the descent process.
 The flowchart for this code is:
 
-<img width="323" alt="Low_level_control" src="https://github.com/MishaRuko/Tree-Climbing-Robot/assets/51261953/bc87e72c-a201-4630-86b0-cb9686e8f468">
+<img width="389" alt="Low_level_control" src="https://github.com/MishaRuko/Tree-Climbing-Robot/assets/51261953/ee1d8c9a-dbde-497c-86b2-696531d54301">
 
 ### SovietCruiserControl.ino
 This code makes the robot detect branches and uses a PID controller to rotate the robot so that the branches pass through the gap between the gripper arms.
